@@ -5,3 +5,5 @@ const batteryBatches = [4, 5, 3, 4, 4, 6, 5];
 let totalBatteries = batteryBatches.reduce((currentTotal, batch) => {
   return batch + currentTotal
 }, 0)
+
+// const totalBatteries = batteryBatches.reduce((total, batch) => total + batch, 0);
